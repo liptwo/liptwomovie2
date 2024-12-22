@@ -20,9 +20,11 @@
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.54.1",
     "react-hot": "^0.0.1",
+    "react-hot-toast": "^2.4.1",
     "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

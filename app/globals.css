@@ -45,11 +45,11 @@
 }
 
 .button {
-  @apply w-full px-5 py-3 mt-5 mb-7 rounded-xl cursor-pointer bg-pink-2 hover:bg-pink-1 text-white text-body-bold;
+  @apply w-full px-5 py-3 mt-5 mb-7 rounded-xl cursor-pointer bg-red-800 hover:bg-red-600 text-white text-body-bold;
 }
 
 .link {
-  @apply text-base-medium text-center text-white hover:text-pink-1;
+  @apply text-base-medium text-center text-white hover:text-red-700;
 }
 
 /* Navbar */
@@ -146,7 +146,7 @@
 
 /* Movie */
 .movie-card {
-  @apply relative h-24 min-w-48 sm:h-32 sm:min-w-60 md:h-36 md:min-w-72 cursor-pointer hover:outline-white text-white;
+  @apply relative h-24 min-w-48 sm:h-32 sm:min-w-60 md:h-36 md:min-w-72 cursor-pointer hover:outline-white;
 }
 
 .thumbnail {

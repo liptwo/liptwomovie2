@@ -47,8 +47,13 @@ const Navbar = () => {
             className="input-search"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-          /> 
-          <Search className="icon" onClick={()=>router.push(`/search/${search}`)}  />
+          />
+          <button disabled={search === ""}>
+            <Search
+              className="icon"
+              onClick={() => router.push(`/search/${search}`)}
+            />
+          </button>
         </div>
         <img
           src="/assets/profile_icon.jpg"
